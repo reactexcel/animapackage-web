@@ -1,0 +1,3307 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700,500,300');
+
+@font-face {
+                          font-family: "material";
+                          src: url('./fonts/material.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "SFProDisplay-Light";
+                          src: url('./fonts/SF-Pro-Display-Light.otf') format("opentype");
+                        }
+                        
+.createinvoice {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 741px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.createinvoice .bgoverviewbilling {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 656px;
+  width               : 1108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 279px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .bgoverviewbilling .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 656px;
+  box-sizing          : border-box;
+  width               : 1108px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(234, 234, 234, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 936px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 936px;
+  width               : 1440px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : 879px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 879px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .rectangle10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 874px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .linecopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 881px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 226px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .rectangle10copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -3px;
+  height              : 76px;
+  width               : 234px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .overview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 48, 48, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .iconstats {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 87px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .iconstats .graph {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .setting {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 113px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 48, 48, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .iconsetting {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .iconsetting .background2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .iconsetting .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .billing {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 23.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .coin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .dashboard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .dashboard .span1 {
+  text-align          : justify;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .dashboard .span2 {
+  text-align          : justify;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .new {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : 34px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .new .rectangle {
+  background-color    : rgba(90, 60, 95, 1.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 128px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .new .newinvoice {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(254, 254, 254, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .new .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(254, 254, 254, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .sent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 200px;
+  height              : 115px;
+  width               : 179px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .sidebarbilling2 .sent .a3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 19, 19, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .sent .a1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 19, 19, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .sent .draft {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 96px;
+  height              : auto;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 19, 19, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .sent .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 65px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 19, 19, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .sent .a25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 153px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 19, 19, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .sent .scheduled {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 19, 19, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .sent .sent1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : auto;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(87, 62, 94, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .sidebarbilling2 .sent .cancelled {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : auto;
+  width               : 64px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(19, 19, 19, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .headeroverviewbilling {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 73px;
+  height              : 48px;
+  width               : 1108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 275px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .headeroverviewbilling .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 1108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .headeroverviewbilling .rectanglecopy9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 47px;
+  width               : 1116px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .headeroverviewbilling .rectanglecopy7 {
+  background-color    : rgba(87, 61, 93, 1.0);
+  top                 : 0px;
+  height              : 14px;
+  width               : 1108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .headeroverviewbilling .statistics {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.createinvoice .billingmainpage .headeroverviewbilling .keyboardarrowdownmaterial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1070px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "material", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 13.0px;
+}
+.createinvoice .billingmainpage .headeroverviewbilling .alltime {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 950px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 16.0px;
+}
+.createinvoice .billingmainpage .toolbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -2px;
+  height              : 60px;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .toolbarbg {
+  background-color    : rgba(254, 254, 254, 1.0);
+  top                 : 0px;
+  height              : 60px;
+  box-sizing          : border-box;
+  width               : 1444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 2px;
+  border-color        : rgba(243, 243, 243, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarb {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1187px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarb .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarb .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarb .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarb .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarb .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarb .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 8px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarbcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1187px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarbcopy .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarbcopy .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 18px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarbcopy .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarbcopy .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarbcopy .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 8px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconcalendarbcopy .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 8px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconbillo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 21px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1297px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .uea3c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1376px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconacademico {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 17px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1242px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconhomeol {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 24px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1133px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .morevertmaterial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1404px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .groupsa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 378px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 48, 48, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .toolbar .membersa {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 269px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 48, 48, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .toolbar .namea {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 48, 48, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .toolbar .groups {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 378px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .toolbar .members {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 269px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .toolbar .name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 21px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 193px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 18.0px;
+}
+.createinvoice .billingmainpage .toolbar .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 160px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconsync {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconsync .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 22px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billingmainpage .toolbar .iconsync .sync {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 149px;
+  height              : 392px;
+  width               : 1094px;
+  position            : absolute;
+  margin              : 0;
+  left                : 291px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 392px;
+  width               : 1094px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 255px;
+  height              : 91px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 749px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .group2 .screenshot20190406at61626pm {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 91px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .group2 .rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 34px;
+  height              : 17px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .a20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 288px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 781px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(244, 68, 54, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.createinvoice .statsoverviewbilling .statslabelcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 349px;
+  height              : 13px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 754px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 255px;
+  height              : 91px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 498px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .group1 .screenshot20190406at61626pmcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 91px;
+  width               : 98px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .group1 .rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 33px;
+  height              : 17px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .groupcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : 89px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 259px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .groupcopy .screenshot20180528at104351copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .groupcopy .rectangle1 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 35px;
+  height              : 17px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .a40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 287px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 294px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(76, 175, 80, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.createinvoice .statsoverviewbilling .statslabelcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 349px;
+  height              : 13px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 270px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .a401 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 286px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 528px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(237, 176, 35, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.createinvoice .statsoverviewbilling .rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 44px;
+  height              : 17px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 793px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .rectanglecopy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 44px;
+  height              : 17px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 943px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 3px;
+  width               : 1096px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .rm {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 261px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.createinvoice .statsoverviewbilling .a50k {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 286px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 38.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+.createinvoice .statsoverviewbilling .a455 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 98px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 294px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.createinvoice .statsoverviewbilling .statslabelcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 125px;
+  height              : 13px;
+  width               : 27px;
+  position            : absolute;
+  margin              : 0;
+  left                : 297px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .statslabelcopy .paid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.createinvoice .statsoverviewbilling .a212 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 532px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(76, 175, 80, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.createinvoice .statsoverviewbilling .statslabel {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 125px;
+  height              : 13px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 536px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .statslabel .paid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.createinvoice .statsoverviewbilling .statslabelcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 125px;
+  height              : 13px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 774px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .statslabelcopy2 .paid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : center;
+  line-height         : 13.0px;
+}
+.createinvoice .statsoverviewbilling .a189 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 97px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 777px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(244, 66, 51, 1.0);
+  text-align          : left;
+  line-height         : 25.0px;
+}
+.createinvoice .statsoverviewbilling .rmcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 732px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.createinvoice .statsoverviewbilling .a20k {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 757px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 38.0px;
+  color               : rgba(244, 66, 51, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+.createinvoice .statsoverviewbilling .statslabelcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 350px;
+  height              : 13px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : 522px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .rmcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 40px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 487px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.createinvoice .statsoverviewbilling .a30k {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 513px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 38.0px;
+  color               : rgba(76, 175, 80, 1.0);
+  text-align          : left;
+  line-height         : 48.0px;
+}
+.createinvoice .statsoverviewbilling .statstitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 513px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .statstitle .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .statstitle .invoices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 48, 48, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.createinvoice .statsoverviewbilling .statstitlecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 210px;
+  height              : 19px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 494px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .statstitlecopy .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 19px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statsoverviewbilling .statstitlecopy .invoices {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(48, 48, 48, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.createinvoice .statstrend {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 594px;
+  height              : 300px;
+  width               : 563px;
+  position            : absolute;
+  margin              : 0;
+  left                : 558px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 300px;
+  width               : 563px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 248px;
+  width               : 533px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy26 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 49px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy28 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 74px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy27 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 99px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy30 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 124px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy29 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 147px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 197px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 221px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy33 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 246px;
+  height              : 1px;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy35 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 247px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group1 .linecopy36 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 247px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 530px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 115px;
+  height              : 185px;
+  width               : 315px;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 .rectangle {
+  background-color    : rgba(240, 181, 58, 1.0);
+  top                 : 0px;
+  height              : 160px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 .rectanglecopy3 {
+  background-color    : rgba(76, 175, 120, 1.0);
+  top                 : 118px;
+  height              : 42px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 .rectanglecopy {
+  background-color    : rgba(240, 181, 58, 1.0);
+  top                 : 38px;
+  height              : 122px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 .rectanglecopy4 {
+  background-color    : rgba(76, 175, 120, 1.0);
+  top                 : 81px;
+  height              : 79px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 .rectanglecopy2 {
+  background-color    : rgba(240, 181, 58, 1.0);
+  top                 : 85px;
+  height              : 75px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 .rectanglecopy5 {
+  background-color    : rgba(76, 175, 120, 1.0);
+  top                 : 59px;
+  height              : 101px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 .rectanglecopy8 {
+  background-color    : rgba(240, 58, 58, 1.0);
+  top                 : 130px;
+  height              : 30px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 183px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 .rectanglecopy6 {
+  background-color    : rgba(76, 175, 120, 1.0);
+  top                 : 80px;
+  height              : 80px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 292px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .statstrend .group2 .june {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 170px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 282px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(86, 0, 139, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .group2 .may {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 169px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(166, 166, 166, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .group2 .april {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 169px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(166, 166, 166, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .group2 .march {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 169px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(166, 166, 166, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 266px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 241px;
+  height              : auto;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 216px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a30 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 192px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a40 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 168px;
+  height              : auto;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a50 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 142px;
+  height              : auto;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a60 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a70 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a80 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 71px;
+  height              : auto;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a90 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .a100 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : auto;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .statstrend .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .billsidebaractiveitem {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 139px;
+  height              : 27px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billsidebaractiveitem .rectangle {
+  background-color    : rgba(238, 238, 238, 1.0);
+  top                 : 0px;
+  height              : 27px;
+  width               : 210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billsidebaractiveitem .a10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 182px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(83, 58, 89, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.createinvoice .billsidebaractiveitem .overview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(83, 58, 89, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .billsidebaractiveitem .iconstats {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .billsidebaractiveitem .iconstats .graph {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group {
+  background-color    : rgba(255,255,255,1);
+  top                 : 238px;
+  height              : 480px;
+  width               : 520px;
+  position            : absolute;
+  margin              : 0;
+  left                : 879px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 480px;
+  width               : 520px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 480px;
+  width               : 520px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .bgsend {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -8px;
+  height              : 500px;
+  width               : 540px;
+  position            : absolute;
+  margin              : 0;
+  left                : -10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .bgsend .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 500px;
+  width               : 540px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .email {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 436px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 181px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(112, 112, 112, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.createinvoice .group .sendinvoice .sync {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 436px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 117px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(112, 112, 112, 1.0);
+  text-align          : right;
+  line-height         : 15.0px;
+}
+.createinvoice .group .sendinvoice .iconchecked {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 440px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 165px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .iconchecked .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .iconcheckedcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 440px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .iconcheckedcopy .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .sendvia {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 436px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(111, 111, 111, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.createinvoice .group .sendinvoice .createsendbutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 428px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 406px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .createsendbutton .rectangle7 {
+  background-color    : rgba(1, 121, 254, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .createsendbutton .send {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 18.0px;
+}
+.createinvoice .group .sendinvoice .createsendbutton .expandmorematerial {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "material", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 12.0px;
+}
+.createinvoice .group .sendinvoice .createsendbutton .line4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 12px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .headersend {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 520px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .headersend .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 520px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .headersend .group5 .rectanglecopy {
+  background-color    : rgba(72, 51, 78, 1.0);
+  top                 : 0px;
+  height              : 35px;
+  width               : 520px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .headersend .group5 .rectanglecopy2 {
+  background-color    : rgba(72, 51, 78, 1.0);
+  top                 : 6px;
+  height              : 29px;
+  width               : 520px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .iconclose {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 496px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .iconclose .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .textheadercreatelayout {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 18px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .textheadercreatelayout .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 87px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoice .textheadercreatelayout .sendnews {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 18.0px;
+}
+.createinvoice .group .sendinvoicerecipienttitle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 51px;
+  height              : 171px;
+  width               : 515px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .background {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 171px;
+  width               : 515px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createlabelcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 123px;
+  height              : 10px;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createlabelcopy .label {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 8.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.createinvoice .group .sendinvoicerecipienttitle .createplaceholder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 18px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createplaceholder .placeholder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .group .sendinvoicerecipienttitle .createdata {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : 18px;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createdata .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createdata .data {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .group .sendinvoicerecipienttitle .createdatacopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 85px;
+  height              : 18px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 273px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createdatacopy .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 146px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createdatacopy .data {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .group .sendinvoicerecipienttitle .line2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 44px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createlabel {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 77px;
+  height              : 10px;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 5px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createlabel .label {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 8.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 10.0px;
+}
+.createinvoice .group .sendinvoicerecipienttitle .createlabelred {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 76px;
+  height              : 10px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 270px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .linecopy8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 112px;
+  height              : 1px;
+  width               : 517px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .linecopy10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 69px;
+  height              : 1px;
+  width               : 517px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .linecopy11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 1px;
+  width               : 517px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createplaceholder1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 18px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createplaceholder1 .placeholder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+.createinvoice .group .sendinvoicerecipienttitle .iconrecipient {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .iconrecipient .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .iconrecipient .fill8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 10px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .selectrecipientadd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 483px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .selectrecipientadd .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .selectrecipientadd .label1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProDisplay-Light", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.createinvoice .group .sendinvoicerecipienttitle .icondropdowncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 433px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .icondropdowncopy .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .icondropdowncopy .xmlid622 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .icondropdowncopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 94px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 164px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .icondropdowncopy2 .background1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .icondropdowncopy2 .xmlid622 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .rectangle {
+  background-color    : rgba(249, 249, 249, 1.0);
+  top                 : 141px;
+  height              : 30px;
+  width               : 475px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createplaceholder2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 147px;
+  height              : 18px;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.createinvoice .group .sendinvoicerecipienttitle .createplaceholder2 .placeholder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Quicksand", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(143, 143, 143, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+.content-wrapper{
+  width:1440px;
+  height: 100%;
+  position:relative;
+  margin:auto;
+}
+
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
